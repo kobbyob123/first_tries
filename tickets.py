@@ -1,7 +1,7 @@
 def tickets(*tickets):
     """Returns the total amount to pay."""
     group = []
-    fee = 100
+    fee = 1000
     total = 0
     
     # Adding the ages to a group
