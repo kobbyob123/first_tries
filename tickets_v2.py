@@ -11,17 +11,19 @@ def calc_tickets(*ages):
     fee = 10
     total = 0
     
-    # Adding the ages to a group
-    # for age in ages:
-    #    group.append(age)
+    '''
+    Adding the ages to a group
+    for age in ages:
+       group.append(age)
 
-    # Calculating the total amount to pay
-    # group = []
-    # for age in group:
-    #     if age <= 3:
-    #         continue
-    #     else:
-    #         total += fee
+    Calculating the total amount to pay
+    group = []
+    for age in group:
+        if age <= 3:
+            continue
+        else:
+            total += fee
+    '''
     
     total = sum(fee for age in ages if age > 3)
     return total
